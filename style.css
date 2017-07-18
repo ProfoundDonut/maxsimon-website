@@ -1,3 +1,5 @@
+/*Body elements*/
+
 html, body {
   padding:0;
   margin:0;
@@ -17,10 +19,17 @@ h1, h2, h3 {
   letter-spacing: 7.5px;
 }
 p {
-  font-family:'quicksand';
+  font-family:'raleway';
   margin-left: 25%;
   margin-right: 25%;
 }
+a {
+  color:#c19430;
+  text-decoration: none;
+}
+
+/*Block Level Elements*/
+
 #header {
   background-color:black;
   padding-top:15vh;
@@ -60,8 +69,13 @@ p {
   background-size:cover;
   font-size:25px;
 }
+#contactSection {
+  padding-top:2%;
+  padding-bottom:2%;
+  background-color: white;
+}
 
-/*Universal styles start here*/
+/*Universal styles*/
 
 #buttonOptionOne {
   border:solid 2px #c19430;
